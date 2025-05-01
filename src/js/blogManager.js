@@ -1,24 +1,24 @@
 export class BlogManager {
     constructor() {
         this.posts = [
-            {
-                title: 'Clean Code na Prática: Como Escrever Código que Fala por Si',
-                category: 'Clean Code',
-                excerpt: 'Neste artigo, vamos explorar o conceito de Clean Code, apresentando dicas práticas e exemplos reais para deixar seu código mais legível, sustentável e fácil de manter. Ideal para quem quer evoluir da programação básica para padrões profissionais de qualidade.',
-                image: 'src/images/blog.png',
-                date: '2024-03-15',
-                readTime: '5 min',
-                link: '#'
-            },
-            {
-                title: 'Design de Sistemas Resilientes: Lições de Engenharia de Software em Grande Escala',
-                category: 'Design de Sistemas',
-                excerpt: 'Aprenda princípios fundamentais para projetar sistemas capazes de resistir a falhas e crescer de forma confiável. Vamos abordar padrões como Circuit Breaker, Retry Pattern e arquitetura orientada a eventos, com foco em aplicações modernas na nuvem.',
-                image: 'src/images/blog.png',
-                date: '2024-03-10',
-                readTime: '4 min',
-                link: '#'
-            }
+            // {
+            //     title: 'Clean Code na Prática: Como Escrever Código que Fala por Si',
+            //     category: 'Clean Code',
+            //     excerpt: 'Neste artigo, vamos explorar o conceito de Clean Code, apresentando dicas práticas e exemplos reais para deixar seu código mais legível, sustentável e fácil de manter. Ideal para quem quer evoluir da programação básica para padrões profissionais de qualidade.',
+            //     image: 'src/images/blog.png',
+            //     date: '2024-03-15',
+            //     readTime: '5 min',
+            //     link: '#'
+            // },
+            // {
+            //     title: 'Design de Sistemas Resilientes: Lições de Engenharia de Software em Grande Escala',
+            //     category: 'Design de Sistemas',
+            //     excerpt: 'Aprenda princípios fundamentais para projetar sistemas capazes de resistir a falhas e crescer de forma confiável. Vamos abordar padrões como Circuit Breaker, Retry Pattern e arquitetura orientada a eventos, com foco em aplicações modernas na nuvem.',
+            //     image: 'src/images/blog.png',
+            //     date: '2024-03-10',
+            //     readTime: '4 min',
+            //     link: '#'
+            // }
         ];
 
         this.categories = [...new Set(this.posts.map(post => post.category))];

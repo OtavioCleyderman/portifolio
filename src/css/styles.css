@@ -553,10 +553,21 @@ nav {
 }
 
 .timeline-date {
-    /* position: absolute; */
     top: 20px;
     color: var(--primary-color);
     font-weight: bold;
+}
+
+.timeline-description {
+    margin: 5px 0;
+}
+
+.timeline-separator {
+    display: block;
+    width: 80%;
+    height: 2px;
+    margin: 5px 0;
+    background-color: var(--primary-color);
 }
 
 .timeline-item:nth-child(odd) .timeline-date {
@@ -589,6 +600,7 @@ nav {
         margin-bottom: 0.5rem;
     }
 }
+
 .blog-section {
     padding: 5rem 2rem;
     background-color: var(--secondary-bg);
@@ -796,7 +808,7 @@ footer {
 .form-group textarea:not(:placeholder-shown) + label {
     top: -0.5rem;
     left: 0.8rem;
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
     background: var(--bg-color);
     padding: 0 0.5rem;
 }

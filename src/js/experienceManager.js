@@ -49,7 +49,7 @@ export class ExperienceManager {
                     <h3 class="timeline-title">${experience.role}</h3>
                     <h4 class="timeline-company">${experience.company}</h4>
                     <p class="timeline-description">${experience.description}</p>
-                    <span>---------------------</span>
+                    <span class="timeline-separator"></span>
                     <div class="timeline-tech">
                         ${experience.technologies.map(tech => 
                             `<span class="tech-tag">${tech}</span>, `

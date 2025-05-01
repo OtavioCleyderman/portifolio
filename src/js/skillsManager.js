@@ -1,19 +1,19 @@
 export class SkillsManager {
     constructor() {
         this.hardSkills = [
-            { name: 'JavaScript', level: 90, icon: 'fab fa-js' },
-            { name: 'HTML5', level: 95, icon: 'fab fa-html5' },
-            { name: 'CSS3', level: 85, icon: 'fab fa-css3-alt' },
-            { name: 'React', level: 70, icon: 'fab fa-react' },
-            { name: 'Node.js', level: 70, icon: 'fab fa-node-js' },
-            { name: 'Python', level: 85, icon: 'fab fa-python' }
+            { name: 'JavaScript', level: 70, icon: 'fab fa-js' },
+            { name: 'HTML5', level: 70, icon: 'fab fa-html5' },
+            { name: 'CSS3', level: 70, icon: 'fab fa-css3-alt' },
+            { name: 'React', level: 65, icon: 'fab fa-react' },
+            { name: 'Node.js', level: 60, icon: 'fab fa-node-js' },
+            { name: 'Python', level: 70, icon: 'fab fa-python' }
         ];
 
         this.softSkills = [
-            { name: 'Comunicação', level: 90, icon: 'fas fa-comments' },
-            { name: 'Trabalho em Equipe', level: 95, icon: 'fas fa-users' },
-            { name: 'Liderança', level: 85, icon: 'fas fa-crown' },
-            { name: 'Resolução de Problemas', level: 90, icon: 'fas fa-puzzle-piece' }
+            { name: 'Comunicação', level: 70, icon: 'fas fa-comments' },
+            { name: 'Trabalho em Equipe', level: 60, icon: 'fas fa-users' },
+            { name: 'Liderança', level: 65, icon: 'fas fa-crown' },
+            { name: 'Resolução de Problemas', level: 70, icon: 'fas fa-puzzle-piece' }
         ];
 
         this.init();
