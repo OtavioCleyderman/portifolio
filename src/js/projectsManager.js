@@ -4,7 +4,7 @@ export class ProjectsManager {
             {
                 title: 'PopFollow - Séries, filmes, animes...',
                 description: 'Um site web onde podemos marcar séries, filmes ou animes como favoritos, vistos e até qual ep vimos.',
-                image: '/src/images/Popfollow.png',
+                image: 'src/images/Popfollow.png',
                 tags: ['React', 'Node.js', 'MongoDB'],
                 demoLink: 'https://popfollow.bohr.io/signin',
                 repoLink: 'https://github.com/OtavioCleyderman/popfollow-client'
@@ -12,7 +12,7 @@ export class ProjectsManager {
             {
                 title: 'GallleryStrap',
                 description: 'Projeto generico enquanto não tenho outros aqui. Esse projeto é uma simples galeria usando HTML, CSS e Bootstrap, no qual usei para ter o contato com o bootstrap.',
-                image: '/src/images/gallerystrap.png',
+                image: 'src/images/gallerystrap.png',
                 tags: ['HTML', 'CSS', 'Bootstrap'],
                 demoLink: 'https://otaviocleyderman.github.io/gallleryStrap/',
                 repoLink: 'https://github.com/OtavioCleyderman/gallleryStrap'
