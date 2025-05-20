@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otávio Cleyderman - Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="module" crossorigin src="/portifolio/assets/index-c8qc3g5i.js"></script>
+  <link rel="stylesheet" crossorigin href="/portifolio/assets/index-DAVuP5mJ.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav>
+            <div class="logo">Meu Portfólio</div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Projetos</a>
+                <a href="#certifications">Certificações</a>
+                <a href="#experience">Experiência</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Olá, me chamo <span class="highlight">Otávio Cleyderman!</span></h1>
+                <p id="typing-container">
+                    <span id="typing-text"></span><span id="typing-cursor"></span>
+                </p>
+            </div>
+            <img class="hero-img" src="/portifolio/assets/me-DdY0dCxa.jpeg" alt="foto profissional">
+        </section>
+
+        <!-- Other sections will be added here -->
+        <!-- After the hero section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title reveal-text">Habilidades</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Hard Skills</h3>
+                    <div class="skill-cards" id="hardSkills"></div>
+                </div>
+                <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-cards" id="softSkills"></div>
+                </div>
+            </div>
+        </section>
+        <!-- After the skills section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title reveal-text">Projetos</h2>
+            <div class="projects-grid" id="projectsContainer"></div>
+        <!-- After the projects section -->
+        <section id="certifications" class="certifications-section">
+            <h2 class="section-title reveal-text">Certificações</h2>
+            <div class="certifications-carousel">
+                <button class="carousel-button prev" aria-label="Previous certification">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-container" id="certificationsContainer"></div>
+                <button class="carousel-button next" aria-label="Next certification">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+        <!-- After the certifications section -->
+        <section id="experience" class="experience-section">
+            <h2 class="section-title reveal-text">Experiência Profissional</h2>
+            <div class="timeline" id="experienceTimeline"></div>
+        <!-- After the experience section -->
+        <section id="blog" class="blog-section">
+            <h2 class="section-title reveal-text">Blog</h2>
+            <div class="blog-filters" id="blogFilters"></div>
+            <div class="blog-grid" id="blogGrid"></div>
+        </section>
+        <!-- After the blog section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title reveal-text">Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Trocar conhecimentos, tirar dúvidas, conselhos, mentorias...</p>
+                    <p>Bem vinda toda e qualquer ajuda que me faça evoluir e me desenvolver mais.</p>
+                    <p>Estou disponível para projetos freelance, voluntário, opensource. Todos não full-time.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/otavio-ferraz/" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/OtavioCleyderman" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/o_cleyderman" target="_blank" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        Enviar Mensagem
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Otávio Cleyderman. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
