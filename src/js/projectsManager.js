@@ -1,18 +1,20 @@
+import popfollowImg from '../images/Popfollow.png';
+import galleryStrapImg from '../images/gallerystrap.png';
 export class ProjectsManager {
     constructor() {
         this.projects = [
             {
                 title: 'PopFollow - Séries, filmes, animes...',
                 description: 'Um site web onde podemos marcar séries, filmes ou animes como favoritos, vistos e até qual ep vimos.',
-                image: './src/images/Popfollow.png',
+                image: popfollowImg,
                 tags: ['React', 'Node.js', 'MongoDB'],
                 demoLink: 'https://popfollow.bohr.io/signin',
                 repoLink: 'https://github.com/OtavioCleyderman/popfollow-client'
             },
             {
-                title: 'GallleryStrap',
+                title: 'GalleryStrap',
                 description: 'Projeto generico enquanto não tenho outros aqui. Esse projeto é uma simples galeria usando HTML, CSS e Bootstrap, no qual usei para ter o contato com o bootstrap.',
-                image: './src/images/gallerystrap.png',
+                image: galleryStrapImg,
                 tags: ['HTML', 'CSS', 'Bootstrap'],
                 demoLink: 'https://otaviocleyderman.github.io/gallleryStrap/',
                 repoLink: 'https://github.com/OtavioCleyderman/gallleryStrap'

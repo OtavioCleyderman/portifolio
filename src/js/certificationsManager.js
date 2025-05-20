@@ -1,3 +1,5 @@
+import inicianteImg from '../images/iniciante.png';
+import desenvolvimentoPessoalImg from '../images/desenvolvimento_pessoal.png';
 export class CertificationsManager {
     constructor() {
         this.certifications = [
@@ -5,14 +7,14 @@ export class CertificationsManager {
                 title: 'Iniciante em programação - T7 ONE',
                 issuer: 'Oracle + Alura',
                 date: '2024',
-                image: './src/images/iniciante.png',
+                image: inicianteImg,
                 link: 'https://cursos.alura.com.br/user/otavio-cleyderman/degree-logica-de-programacao-turma7-one-753048/certificate'
             },
             {
                 title: 'Desenvolvimento pessoal - T7 ONE',
                 issuer: 'Oracle + Alura',
                 date: '2024',
-                image: './src/images/desenvolvimento_pessoal.png',
+                image: desenvolvimentoPessoalImg,
                 link: 'https://cursos.alura.com.br/user/otavio-cleyderman/degree-desenvolvimento-pessoal-turma7-one-753037/certificate'
             }
         ];
